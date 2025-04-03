@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/xianggang.js"></script>
+
+    
+</head>
+<body >
+    <div id="d705239bc7f149e4b8f06fadf62ad837" class="chart-container" style="width:1200px; height:800px; "></div>
+    <script>
+        var chart_d705239bc7f149e4b8f06fadf62ad837 = echarts.init(
+            document.getElementById('d705239bc7f149e4b8f06fadf62ad837'), 'light', {renderer: 'canvas'});
+        var option_d705239bc7f149e4b8f06fadf62ad837 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u9879\u76ee\u6570\u91cf",
+                "label": {
+                    "show": false,
+                    "margin": 8,
+                    "valueAnimation": false
+                },
+                "map": "\u9999\u6e2f",
+                "data": [
+                    {
+                        "name": "\u4e1c\u533a",
+                        "value": 1,
+                        "staff_count": 15,
+                        "projects": ["项目A", "项目B"],
+                        "positions": {"开发": 5, "测试": 3, "运维": 7}
+                    },
+                    {
+                        "name": "\u4e2d\u897f\u533a",
+                        "value": 4
+                    },
+                    {
+                        "name": "\u4e5d\u9f99\u57ce\u533a",
+                        "value": 39
+                    },
+                    {
+                        "name": "\u5143\u6717\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u5357\u533a",
+                        "value": 15
+                    },
+                    {
+                        "name": "\u5927\u57d4\u533a",
+                        "value": 37
+                    },
+                    {
+                        "name": "\u5c6f\u95e8\u533a",
+                        "value": 2
+                    },
+                    {
+                        "name": "\u6c99\u7530\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u6cb9\u5c16\u65fa\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u6df1\u6c34\u57d7\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u6e7e\u4ed4\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u8343\u6e7e\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u897f\u8d21\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u89c2\u5858\u533a",
+                        "value": 1
+                    },
+                    {
+                        "name": "\u9ec4\u5927\u4ed9\u533a",
+                        "value": 24
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "zlevel": 0,
+                "z": 2,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": false,
+                "emphasis": {}
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "currentIndex": 0,
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "progress": {},
+            "data": [
+                "\u4f73\u5bcc\u7269\u4e1a\u670d\u52a1\u6709\u9650\u516c\u53f8",
+                "\u5a01\u4fe1\u670d\u52a1\u6709\u9650\u516c\u53f8"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 1,
+            "max": 39,
+            "inRange": {
+                "color": [
+                    "#E0ECF8",
+                    "#084B8A"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "hoverLink": true,
+            "orient": "vertical",
+            "left": "left",
+            "padding": 5,
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        },
+        "legend": [
+            {
+                "data": [
+                    "\u9879\u76ee\u6570\u91cf"
+                ],
+                "selected": {},
+                "show": true,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderRadius": 0,
+                "pageButtonItemGap": 5,
+                "pageButtonPosition": "end",
+                "pageFormatter": "{current}/{total}",
+                "pageIconColor": "#2f4554",
+                "pageIconInactiveColor": "#aaa",
+                "pageIconSize": 15,
+                "animationDurationUpdate": 800,
+                "selector": false,
+                "selectorPosition": "auto",
+                "selectorItemGap": 7,
+                "selectorButtonGap": 10
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u9879\u76ee\u6570\u91cf"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u9879\u76ee\u6570\u91cf",
+                    "label": {
+                        "show": false,
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "map": "\u9999\u6e2f",
+                    "data": [
+                        {
+                            "name": "\u4e2d\u897f\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5143\u6717\u533a",
+                            "value": 5
+                        },
+                        {
+                            "name": "\u5317\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u5927\u57d4\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5c6f\u95e8\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u6c99\u7530\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u6df1\u6c34\u57d7\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u8343\u6e7e\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u89c2\u5858\u533a",
+                            "value": 12
+                        },
+                        {
+                            "name": "\u9ec4\u5927\u4ed9\u533a",
+                            "value": 1
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u4f73\u5bcc\u7269\u4e1a\u670d\u52a1\u6709\u9650\u516c\u53f8 \u591a\u7ef4\u5ea6\u5206\u5e03",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "formatter": function(params) {
+                    let data = params.value;
+                    return `<div style='font-size:14px; padding:5px'>
+                        <div style='font-weight:bold; border-bottom:1px solid #666; padding-bottom:5px'>${params.name}</div>
+                        <div style='margin-top:5px'>项目数量：${data.value || 0}</div>
+                        <div>人员总量：${data.staff_count || 0}</div>
+                        <div style='margin-top:8px; color:#900'>项目详情：</div>
+                        <div>${(data.projects || []).join('<br>')}</div>
+                        <div style='margin-top:8px; color:#090'>岗位分布：</div>
+                        <div>${Object.entries(data.positions || {}).map(([k,v]) => `${k}: ${v}`).join('<br>')}</div>
+                    </div>`;
+                },
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 1,
+                "max": 12,
+                "inRange": {
+                    "color": [
+                        "#E0ECF8",
+                        "#084B8A"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "left": "left",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u9879\u76ee\u6570\u91cf"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u9879\u76ee\u6570\u91cf",
+                    "label": {
+                        "show": false,
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "map": "\u9999\u6e2f",
+                    "data": [
+                        {
+                            "name": "\u4e1c\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u4e2d\u897f\u533a",
+                            "value": 4
+                        },
+                        {
+                            "name": "\u4e5d\u9f99\u57ce\u533a",
+                            "value": 39
+                        },
+                        {
+                            "name": "\u5143\u6717\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u5357\u533a",
+                            "value": 15
+                        },
+                        {
+                            "name": "\u5927\u57d4\u533a",
+                            "value": 37
+                        },
+                        {
+                            "name": "\u5c6f\u95e8\u533a",
+                            "value": 2
+                        },
+                        {
+                            "name": "\u6c99\u7530\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u6cb9\u5c16\u65fa\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u6df1\u6c34\u57d7\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u6e7e\u4ed4\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u8343\u6e7e\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u897f\u8d21\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u89c2\u5858\u533a",
+                            "value": 1
+                        },
+                        {
+                            "name": "\u9ec4\u5927\u4ed9\u533a",
+                            "value": 24
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5a01\u4fe1\u670d\u52a1\u6709\u9650\u516c\u53f8 \u591a\u7ef4\u5ea6\u5206\u5e03",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "formatter": function(params) {
+                    let data = params.value;
+                    return `<div style='font-size:14px; padding:5px'>
+                        <div style='font-weight:bold; border-bottom:1px solid #666; padding-bottom:5px'>${params.name}</div>
+                        <div style='margin-top:5px'>项目数量：${data.value || 0}</div>
+                        <div>人员总量：${data.staff_count || 0}</div>
+                        <div style='margin-top:8px; color:#900'>项目详情：</div>
+                        <div>${(data.projects || []).join('<br>')}</div>
+                        <div style='margin-top:8px; color:#090'>岗位分布：</div>
+                        <div>${Object.entries(data.positions || {}).map(([k,v]) => `${k}: ${v}`).join('<br>')}</div>
+                    </div>`;
+                },
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 1,
+                "max": 39,
+                "inRange": {
+                    "color": [
+                        "#E0ECF8",
+                        "#084B8A"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "left": "left",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        }
+    ]
+};
+        chart_d705239bc7f149e4b8f06fadf62ad837.setOption(option_d705239bc7f149e4b8f06fadf62ad837);
+    </script>
+</body>
+</html>
